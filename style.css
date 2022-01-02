@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(./pexels-daniel-absi-952670.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.menu{
+	width: 90%;
+	margin: 10px auto;
+	height: 100px;
+}
+.menu ul li {
+	float: left;
+	list-style-type: none;
+	background-color: #2980b9;
+	color: #fff;
+	width: 200px;
+	line-height: 30px;
+	font-size: 27px;
+	text-align: center;
+	transition: .5s;
+	border-left: 1px solid #fff;
+	margin-left: -4px;
+
+}
+.menu ul li a{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+
+}
+.menu ul li:hover{
+		background: #2c3e50;
+}
+.menu ul li ul{
+		display: none;
+}
+.menu ul li:hover > ul{
+	display: block;
+}
+.menu ul li ul li{
+	position: relative;
+	
+}
+.menu ul li ul li  a{
+	
+}
+.menu ul li ul li ul{
+	position: absolute;
+	top: 0;
+	left:200px;
+	display: none;
+	
+
+}
